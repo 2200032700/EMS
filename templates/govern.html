@@ -1,0 +1,201 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>  
+    </head>
+    <link rel="stylesheet" href="govern.css">
+    <body>
+      <script>
+        function show()
+        {
+          const menu = document.getElementById("demo");
+          menu.style.display = menu.style.display === "block" ? "none" : "block";   
+        }
+    </script>
+    <div class="res">
+        <img src="/img/menu.png" class="i" onclick="show()">
+        <div class="demo" id="demo">        
+        <div class="nav">
+           <li><a th:href="@{/home}">Home</a></li>
+            <li><a th:href="@{/about}">About</a></li>
+            <li><a th:href="@{/govern}">Candidates</a></li>
+            <li><a th:href="@{/voting}">Voting</a></li>
+            
+            <li><a th:href="@{/login}"><button>LogOut</button></a></li>
+            </div>
+        </div>
+     
+        <img src="/img/logo.png" class="img">
+      </div>
+     
+      <table border="1px solid gray">
+        <th>S.NO</th>
+        <th>Candidate Name</th>
+        <th>Constituency</th>
+        <th>Party</th>
+        <th>Education</th>
+
+        <tr>
+            <td>1</td>
+            <td>Buddha Prasad Madali</td>
+            <td>AVANIGADDA</td>
+            <td>Janasena Party</td>
+            <td>Graduate</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>A Chinna Moulali</td>
+            <td>ADONI</td>
+            <td>BJP</td>
+            <td>Post Graduate</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Satyanarayana Pithani</td>
+            <td>ACHANTA</td>
+            <td> TDP</td>
+            <td>10th Pass</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Dasari Sudha</td>
+            <td>ALUR</td>
+            <td>YSRCP</td>
+            <td>12th Pass</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Ramanarayana Reddy</td>
+            <td>Janasena Party</td>
+            <td>TDP</td>
+            <td>8th Pass</td>
+        </tr>
+         <tr>
+            <td>6</td>
+            <td>Gottipati Ravi Kumar</td>
+            <td>ADDANKI</td>
+            <td>TDP</td>
+            <td>12th Pass</td>
+        </tr>
+         <tr>
+            <td>7</td>
+            <td>Aithabathla Anandarao</td>
+            <td>ATMAKUR</td>
+            <td>TDP</td>
+            <td>Graduate Professional</td>
+        </tr>
+         <tr>
+            <td>8</td>
+            <td>Ramakrishna Reddy Nallamilli</td>
+            <td>ANAPARTHY</td>
+            <td>BJP</td>
+            <td>Graduate</td>
+        </tr>
+         <tr>
+            <td>9</td>
+            <td>Narendra Varma Raju Vegesana</td>
+            <td>BAPATLA</td>
+            <td>TDP</td>
+            <td>10th Pass</td>
+        </tr>
+         <tr>
+            <td>10</td>
+            <td>R.V.S.K.K.Ranga Rao</td>
+            <td>BOBBILI</td>
+            <td>TDP</td>
+            <td>12th Pass</td>
+        </tr>
+         <tr>
+            <td>11</td>
+            <td>Radha Krishnayya Badeti</td>
+            <td>ELURU</td>
+            <td>YSRCP</td>
+            <td>Graduate</td>
+        </tr>
+         <tr>
+            <td>12</td>
+            <td>Buchepalli Siva Prasad Reddy</td>
+            <td>DARSI</td>
+            <td>YSRCP</td>
+            <td>10th Pass</td>
+        </tr>
+         <tr>
+            <td>13</td>
+            <td>Satya Kumar Yadav</td>
+            <td>DHARMAVARAM</td>
+            <td>BJP</td>
+            <td>Post Graduate</td>
+        </tr>
+         <tr>
+            <td>14</td>
+            <td>Havi Reddappa Gari</td>
+            <td>KADAPA</td>
+            <td>TDP</td>
+            <td>Graduate</td>
+        </tr>
+         <tr>
+            <td>15</td>
+            <td>Pantam Venkateswara Rao (Pantam Nanaji)</td>
+            <td>KAKINADA</td>
+            <td>Janasena Party</td>
+            <td>12th Pass</td>
+        </tr>
+         <tr>
+            <td>16</td>
+            <td>Arava Sreedhar</td>
+            <td>KODUR</td>
+            <td>Janasena Party</td>
+            <td>Post Graduate</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>Y.Balanagi Reddy</td>
+            <td>MANTRALAYAM</td>
+            <td>YSRCP</td>
+            <td>10th Pass</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>Havi Reddappa Gari</td>
+            <td>KADAPA</td>
+            <td>TDP</td>
+            <td>Graduate</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>Kollu Ravindra</td>
+            <td>MACHILIPATNAM</td>
+            <td>TDP</td>
+            <td>Graduate Professional</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>Radha Krishnayya Badeti</td>
+            <td>ELURU</td>
+            <td>YSRCP</td>
+            <td>Graduate</td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>Y.Balanagi Reddy</td>
+            <td>MANTRALAYAM</td>
+            <td>YSRCP</td>
+            <td>10th Pass</td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>Lokam Naga Madhavi</td>
+            <td>NELLIMARLA</td>
+            <td>Janasena Party</td>
+            <td>Post Graduate</td>
+        </tr>
+      
+      </table>
+      <footer>
+        <br>
+       <p> &copy; 2024 Sofia More. All rights reserved.</p>
+    </footer>
+      
+      
+       
+      </body>   
+</html>

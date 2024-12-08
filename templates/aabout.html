@@ -1,0 +1,68 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-MR" xml:lang="en-MR">  
+        <head>  
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />  
+        <meta http-equiv="content-language" content="en-MR" /> 
+    <head>  
+    </head>
+    <link rel="stylesheet" href="about.css">
+    <body>
+      <script>
+        function show()
+        {
+          const menu = document.getElementById("demo");
+          menu.style.display = menu.style.display === "block" ? "none" : "block";   
+        }
+    </script>
+    <div class="res">
+        <img src="/img/menu.png" class="i" onclick="show()">
+        <div class="demo" id="demo">        
+        <div class="nav">
+           <li><a th:href="@{/ahome}">Home</a></li>
+            <li><a th:href="@{/aabout}">About</a></li>
+            <li><a th:href="@{/govern}">Candidates</a></li>
+            <li><a th:href="@{/avoting}">Voting</a></li>
+            <li><a th:href="@{/admin}"><button>LogOut</button></a></li>
+            </div>
+        </div>
+     
+        <img src="/img/logo.png" class="img">
+       
+      </div>
+    
+     
+<ul type="desc"> 
+<b>About Us</b><br>      
+<li style="padding:10px;margin-left:20px;color:black;margin-top:25px;">
+<br>
+
+&nbsp; Welcome to the Election Monitoring System, your trusted platform for ensuring fair and transparent elections.<br>
+&nbsp; Our mission is to inspire confidence in the democratic process by fostering accountability, preventing fraud, and empowering citizens—especially first-time voters—to actively participate in shaping the future.<br>
+&nbsp; Elections are the cornerstone of democracy, and we believe in making them accessible, secure, and transparent for everyone.<br>
+&nbsp; With our innovative monitoring tools, we aim to track election processes in real time, identify and address irregularities, and promote civic engagement by providing clear, accurate, and up-to-date information.<br>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; What We Do<br>
+&nbsp; Prevent Fraud: We employ advanced technology to detect and deter election malpractice<br>
+&nbsp; Promote Transparency: Our platform monitors the entire election process to ensure fairness.<br>
+&nbsp; Encourage Civic Engagement: By offering easy-to-understand election insights, we empower upcoming voters to make informed decisions and actively participate<br>
+&nbsp;<br>
+&nbsp;<br>
+</li>
+</ul>
+<footer>
+    <br>
+   <p> &copy; 2024 sofia More. All rights reserved.</p>
+</footer>
+
+      </body>   
+</html><!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

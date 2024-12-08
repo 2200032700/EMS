@@ -1,0 +1,92 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-MR" xml:lang="en-MR">  
+        <head>  
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />  
+        <meta http-equiv="content-language" content="en-MR" /> 
+    <head>  
+    </head>
+    <link rel="stylesheet" href="about.css">
+    <body>
+      <script>
+        function show()
+        {
+          const menu = document.getElementById("demo");
+          menu.style.display = menu.style.display === "block" ? "none" : "block";   
+        }
+    </script>
+    <div class="res">
+        <img src="/img/menu.png" class="i" onclick="show()">
+        <div class="demo" id="demo">        
+        <div class="nav">
+           <li><a th:href="@{/home}">Home</a></li>
+            <li><a th:href="@{/about}">About</a></li>
+            <li><a th:href="@{/govern}">Candidates</a></li>
+            <li><a th:href="@{/voting}">Voting</a></li>
+            <li><a th:href="@{/login}"><button>LogOut</button></a></li>
+            </div>
+        </div>
+     
+        <img src="/img/logo.png" class="img">
+       
+      </div>
+    
+     
+ 
+<ul type="desc"> 
+<b>About Us</b><br>      
+<li style="padding:10px;margin-left:20px;color:black;margin-top:5px;">
+Welcome to the Election Monitoring System, your trusted platform for ensuring fair and transparent elections. (ఎన్నికల మానిటరింగ్ సిస్టమ్‌కు స్వాగతం, నిష్పక్షపాతంగా మరియు పారదర్శకంగా ఎన్నికలు జరిగేలా చూసేందుకు మీ విశ్వసనీయ వేదిక.)<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp; Our mission is to inspire confidence in the democratic process by fostering accountability, preventing fraud, and empowering citizens—especially first-time voters—to actively participate in shaping the future.  
+(జవాబుదారీతనాన్ని పెంపొందించడం, మోసాలను నిరోధించడం మరియు పౌరులకు-ముఖ్యంగా మొదటిసారి ఓటర్లు-భవిష్యత్తును రూపొందించడంలో చురుకుగా పాల్గొనడానికి-సాధికారత కల్పించడం ద్వారా ప్రజాస్వామ్య ప్రక్రియపై విశ్వాసాన్ని ప్రేరేపించడం మా లక్ష్యం.)<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp; Elections are the cornerstone of democracy, and we believe in making them accessible, secure, and transparent for everyone. With our innovative monitoring tools, we aim to track election processes in real time, identify and address irregularities, and promote civic engagement by providing clear, accurate, and up-to-date information.  
+(ఎన్నికలు ప్రజాస్వామ్యానికి మూలస్తంభం, మరియు వాటిని అందరికీ అందుబాటులో, సురక్షితమైన మరియు పారదర్శకంగా చేయాలని మేము విశ్వసిస్తున్నాము. మా వినూత్న పర్యవేక్షణ సాధనాలతో, మేము ఎన్నికల ప్రక్రియలను నిజ సమయంలో ట్రాక్ చేయడం, అక్రమాలను గుర్తించడం మరియు పరిష్కరించడం మరియు స్పష్టమైన, ఖచ్చితమైన మరియు తాజా సమాచారాన్ని అందించడం ద్వారా పౌర నిశ్చితార్థాన్ని ప్రోత్సహించడం లక్ష్యంగా పెట్టుకున్నాము.)<br>
+&nbsp;<br>
+&nbsp;<br>
+
+</li>
+</ul>
+
+<ul type="desc">
+<b>Rules:</b><br>      
+<li style="padding:10px;margin-left:20px;color:black;margin-top:5px;">
+
+&nbsp;<br>
+&nbsp;<br>
+&nbsp; 1. Eligibility Criteria
+Must be an Indian citizen.
+Must be at least 18 years old on the qualifying date (usually January 1st of the election year).
+Must be a resident of the constituency in which they wish to vote.<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp; 2. Voter Registration
+Must be enrolled in the Electoral Roll of their constituency.
+To register:
+Submit Form 6 (available online and offline) to the Election Commission of India (ECI).
+Provide proof of age, identity, and residence.<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp; 3. Possession of a Voter ID (EPIC)
+Having a Voter ID card (EPIC) is not mandatory for voting, but the name must be on the electoral roll.
+If no Voter ID, other accepted identification (e.g., Aadhaar card, passport, driving license) can be used.<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp; 4. Absence of Disqualifications
+Cannot vote if declared of unsound mind by a competent court.
+Cannot vote if disqualified under laws related to electoral offenses.<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;5. Special Cases
+NRIs (Non-Resident Indians): Eligible to register and vote but must be physically present in India on voting day.
+Service Personnel: Eligible to register as service voters and vote via postal ballots.<br>
+
+<footer>
+    <br>
+   <p> &copy; 2024 Sofia More. All rights reserved.</p>
+</footer>
+
+      </body>   
+</html>
